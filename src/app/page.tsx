@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { FileUp } from "lucide-react";
 
 // This is the URL for your n8n form.
-const N8N_FORM_URL = 'https://stage-n8n.10minuteschool.com/form-test/615be63c-391d-4f58-8993-3ad2b0e6d68b';
+const N8N_FORM_URL = 'https://stage-n8n.10minuteschool.com/form/d899018a-7eea-4aea-8230-16834de918cc';
 
 export default function Home() {
   const handleStartProcess = () => {
