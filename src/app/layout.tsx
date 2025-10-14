@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'OCR Workflow Pro',
   description: 'An intelligent OCR workflow application.',
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
