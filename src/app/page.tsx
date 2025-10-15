@@ -23,7 +23,8 @@ const subjects: Subject[] = [
 const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-tool-omega.vercel.app/';
 const MCQ_FORMATION_URL = 'https://sojibseucse62.github.io/pptx-doc-to-quiz-format/';
 
-const TOTAL_TIME = 150; // 2.5 minutes in seconds
+// const TOTAL_TIME = 150; // Original: 2.5 minutes in seconds
+const TOTAL_TIME = 10; // Test time: 10 seconds
 
 export default function Home() {
   const [timerState, setTimerState] = useState<'idle' | 'selectingSubject' | 'running' | 'finished'>('idle');
