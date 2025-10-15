@@ -6,13 +6,8 @@ export const metadata: Metadata = {
   title: 'OCR Workflow Pro',
   description: 'An intelligent OCR workflow application.',
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
-    ],
-    apple: '/apple-touch-icon.png',
+    icon: '/favicon.ico',
   },
-  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
