@@ -69,9 +69,9 @@ export default function Home() {
           <RotateCw className="h-6 w-6" />
         </Button>
       </div>
-      <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center">
+      <div className="flex flex-col items-center justify-center w-full max-w-2xl">
         {timerState === 'idle' && (
-          <div className="animate-fade-in">
+          <div className="animate-fade-in text-center">
             <div className="mb-8">
               <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
                 OCR Workflow Pro
@@ -80,7 +80,7 @@ export default function Home() {
                 Click a button below to begin an automated OCR process.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 className="shadow-lg hover:shadow-xl transition-shadow"
@@ -106,7 +106,7 @@ export default function Home() {
         )}
 
         {timerState === 'running' && (
-          <div className="w-full max-w-md animate-fade-in space-y-6">
+          <div className="w-full max-w-md animate-fade-in space-y-6 text-center">
              <h2 className="text-3xl font-bold text-primary">Processing your file...</h2>
              <p className="text-muted-foreground">Please keep this page open. Your results will be available shortly.</p>
             <div className="space-y-3">
