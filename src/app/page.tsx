@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { FileUp, ScanLine, FolderOpen, BookText, RotateCw } from "lucide-react";
+import { FileUp, ScanLine, FolderOpen, BookText } from "lucide-react";
 
 const N8N_FORM_URL = 'https://stage-n8n.10minuteschool.com/form/d899018a-7eea-4aea-8230-16834de918cc';
 const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-tool-omega.vercel.app/';
@@ -61,17 +61,15 @@ export default function Home() {
       </header>
       <div className="absolute top-8 right-8">
         <Button
-          variant="ghost"
-          size="icon"
+          variant="outline"
           onClick={() => window.location.reload()}
-          aria-label="Refresh page"
         >
-          <RotateCw className="h-6 w-6" />
+          HOME
         </Button>
       </div>
-      <div className="flex flex-col items-center justify-center w-full max-w-2xl">
+      <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center">
         {timerState === 'idle' && (
-          <div className="animate-fade-in text-center">
+          <div className="animate-fade-in">
             <div className="mb-8">
               <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
                 OCR Workflow Pro
@@ -106,7 +104,7 @@ export default function Home() {
         )}
 
         {timerState === 'running' && (
-          <div className="w-full max-w-md animate-fade-in space-y-6 text-center">
+          <div className="w-full max-w-md animate-fade-in space-y-6">
              <h2 className="text-3xl font-bold text-primary">Processing your file...</h2>
              <p className="text-muted-foreground">Please keep this page open. Your results will be available shortly.</p>
             <div className="space-y-3">
@@ -120,7 +118,7 @@ export default function Home() {
         )}
 
         {timerState === 'finished' && (
-          <div className="animate-fade-in text-center">
+          <div className="animate-fade-in">
             <h2 className="text-3xl font-bold text-primary mb-4">
               Find your OCRed file here
             </h2>
