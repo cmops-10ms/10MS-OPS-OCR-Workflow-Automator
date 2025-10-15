@@ -54,7 +54,11 @@ export default function Home() {
   const progress = ((TOTAL_TIME - timeLeft) / TOTAL_TIME) * 100;
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-background p-8 transition-all duration-500">
+    <main className="relative flex min-h-screen flex-col items-center justify-center bg-background p-8 transition-all duration-500">
+      <header className="absolute top-8 left-8 text-left">
+        <h1 className="text-xl font-bold text-foreground">10 Minute School</h1>
+        <p className="text-md text-muted-foreground">Content Operations</p>
+      </header>
       <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center">
         {timerState === 'idle' && (
           <div className="animate-fade-in">
