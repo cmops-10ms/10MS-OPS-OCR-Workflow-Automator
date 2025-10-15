@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { FileUp, ScanLine, FolderOpen, BookText } from "lucide-react";
+import { FileUp, ScanLine, FolderOpen, BookText, RotateCw } from "lucide-react";
 
 const N8N_FORM_URL = 'https://stage-n8n.10minuteschool.com/form/d899018a-7eea-4aea-8230-16834de918cc';
 const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-tool-omega.vercel.app/';
@@ -59,6 +59,16 @@ export default function Home() {
         <h1 className="text-xl font-bold text-foreground">10 Minute School</h1>
         <p className="text-md text-muted-foreground">Content Operations</p>
       </header>
+      <div className="absolute top-8 right-8">
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={() => window.location.reload()}
+          aria-label="Refresh page"
+        >
+          <RotateCw className="h-6 w-6" />
+        </Button>
+      </div>
       <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center">
         {timerState === 'idle' && (
           <div className="animate-fade-in">
