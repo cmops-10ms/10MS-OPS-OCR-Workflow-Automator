@@ -17,7 +17,7 @@ const subjects: Subject[] = [
   { name: 'Chemistry', formUrl: 'https://stage-n8n.10minuteschool.com/form-test/3fc4d21a-3299-46a1-b947-2b8cd744ccc4', driveUrl: 'https://drive.google.com/drive/folders/10xxGJLD6bZizQhmqJp4zeE0LPalgAbTJ' },
   { name: 'Math', formUrl: 'https://stage-n8n.10minuteschool.com/form/a8969775-0788-47ae-b236-058b1b0c841f', driveUrl: 'https://drive.google.com/drive/folders/1tb2EI68rq3qWUPa3eLUqsvjTzI94BuNl' },
   { name: 'Biology', formUrl: 'https://stage-n8n.10minuteschool.com/form/541e701f-507d-4d82-9080-3fa1f5fb9fb3', driveUrl: 'https://drive.google.com/drive/folders/1omKchck0lRHoi1bxzhcjVgOwSz3Sh_Rt' },
-  { name: 'BTEB', formUrl: 'https://stage-n8n.10minuteschool.com/form/52def22b-9d57-41b4-b5e6-0bcdcea5d3e1', driveUrl: 'https://drive.google.com/drive/folders/1fc8BheEFALeDFIBuFqrpy-_dKUM6rrm4' },
+  { name: 'BEI', formUrl: 'https://stage-n8n.10minuteschool.com/form/52def22b-9d57-41b4-b5e6-0bcdcea5d3e1', driveUrl: 'https://drive.google.com/drive/folders/1fc8BheEFALeDFIBuFqrpy-_dKUM6rrm4' },
 ];
 
 const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-tool-omega.vercel.app/';
@@ -194,4 +194,3 @@ export default function Home() {
     </main>
   );
 }
- 
