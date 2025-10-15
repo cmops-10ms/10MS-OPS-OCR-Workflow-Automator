@@ -14,7 +14,7 @@ type Subject = {
 
 const subjects: Subject[] = [
   { name: 'Physics', formUrl: 'https://stage-n8n.10minuteschool.com/form/60c33afc-a5c8-4dac-b94c-0db4da3d6bbc', driveUrl: 'https://drive.google.com/drive/folders/1VwKPCcckg3EnHDyeIKrbhss629wzLIT4' },
-  { name: 'Chemistry', formUrl: 'https://stage-n8n.10minuteschool.com/form-test/3fc4d21a-3299-46a1-b947-2b8cd744ccc4', driveUrl: 'https://drive.google.com/drive/folders/10xxGJLD6bZizQhmqJp4zeE0LPalgAbTJ' },
+  { name: 'Chemistry', formUrl: 'https://stage-n8n.10minuteschool.com/form/3fc4d21a-3299-46a1-b947-2b8cd744ccc4', driveUrl: 'https://drive.google.com/drive/folders/10xxGJLD6bZizQhmqJp4zeE0LPalgAbTJ' },
   { name: 'Math', formUrl: 'https://stage-n8n.10minuteschool.com/form/a8969775-0788-47ae-b236-058b1b0c841f', driveUrl: 'https://drive.google.com/drive/folders/1tb2EI68rq3qWUPa3eLUqsvjTzI94BuNl' },
   { name: 'Biology', formUrl: 'https://stage-n8n.10minuteschool.com/form/541e701f-507d-4d82-9080-3fa1f5fb9fb3', driveUrl: 'https://drive.google.com/drive/folders/1omKchck0lRHoi1bxzhcjVgOwSz3Sh_Rt' },
   { name: 'BEI', formUrl: 'https://stage-n8n.10minuteschool.com/form/52def22b-9d57-41b4-b5e6-0bcdcea5d3e1', driveUrl: 'https://drive.google.com/drive/folders/1fc8BheEFALeDFIBuFqrpy-_dKUM6rrm4' },
