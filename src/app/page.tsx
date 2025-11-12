@@ -20,7 +20,7 @@ const subjects: Subject[] = [
   { name: 'BEI', formUrl: 'https://stage-n8n.10minuteschool.com/form/52def22b-9d57-41b4-b5e6-0bcdcea5d3e1', driveUrl: 'https://drive.google.com/drive/folders/1fc8BheEFALeDFIBuFqrpy-_dKUM6rrm4' },
 ];
 
-const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-tool-omega.vercel.app/';
+const SINGLE_PAGE_OCR_URL = 'https://advanced-ocr-eta.vercel.app/';
 const MCQ_FORMATION_URL = 'https://sojibseucse62.github.io/pptx-doc-to-quiz-format/';
 
 const TOTAL_TIME = 150; // Original: 2.5 minutes in seconds
